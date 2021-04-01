@@ -31,6 +31,7 @@
     "id": 5,
     "title": "Lose Yourself",
     "artist": "Eminem",
-    "releaseDate": "2002"
+    "releaseDate": "2002",
+    "lyricsFile": "lose-yourself.txt"
   }
 ]
