@@ -1,0 +1,17 @@
+{
+  "name": "git-flow-lab-starter-code",
+  "version": "1.0.0",
+  "description": "## Learning Objectives - review core git concepts - understand basic productive git workflow for any development project of any team size",
+  "main": "index.js",
+  "scripts": {
+    "server": "cd server && nodemon server.js",
+    "client": "cd client && npm run start",
+    "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^6.0.0",
+    "nodemon": "^2.0.7"
+  }
+}
